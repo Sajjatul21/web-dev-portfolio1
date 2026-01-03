@@ -13,6 +13,20 @@
 } */
 
 /* Shared style */
+.section-bg {
+    background-color: #FFF8F3;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 18px;
+}
+
+
 .text-primary {
     color: #FD6E0A;
 }
@@ -98,11 +112,21 @@ nav li a {
     font-weight: bold;
 }
 
-.banner-description {
-    font-size: 18px;
-}
 
 .banner-profile-pic {
     max-width: 585px;
     /* width: 100%; */
+}
+
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About section  */
+.about {
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
 }
