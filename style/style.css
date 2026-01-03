@@ -11,13 +11,44 @@
     color: #FD6E0A;
 }
 
+.dark-2 {
+    color: #474747;
+}
+
+.btn-primary {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px;
+    color: white;
+    background-color: #FD6E0A;
+}
+
 /* nav style */
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 .nav-header {
     font-weight: 800;
     font-size: 45px;
 
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
 }
