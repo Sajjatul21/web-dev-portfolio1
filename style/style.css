@@ -129,4 +129,15 @@ main {
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
+    border-radius: 10px;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: bold;
+    line-height: 0;
 }
