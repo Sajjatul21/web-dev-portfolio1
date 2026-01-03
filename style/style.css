@@ -6,6 +6,12 @@
         "wdth" 100;
 }
 
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
 /* Shared style */
 .text-primary {
     color: #FD6E0A;
@@ -33,6 +39,11 @@
     border: none;
 }
 
+.header {
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 /* nav style */
 nav {
